@@ -8,6 +8,22 @@
     font-style: normal;
 }
 
+
+header {
+    background-color: antiquewhite;
+    padding: 3em 9em;
+    margin-bottom: 80px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 130px;
+}
+
 .primary_btn {
     color: #FFF;
     font-size: 20px;
@@ -19,10 +35,15 @@
     margin-top: 20px;
 }
 
-header {
-    background-color: antiquewhite;
-    padding: 3em 9em;
+.section_title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
 
+.section_description {
+    color: #727272;
 }
 
 nav,
@@ -65,4 +86,30 @@ nav a {
 .banner_container img {
     width: 100%;
     margin-top: 20px;
+}
+
+/* Quick list styles */
+.quick_list_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.quick_list_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.quick_list {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.features {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
 }
