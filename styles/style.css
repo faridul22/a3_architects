@@ -1,3 +1,4 @@
+/* Shared styles */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,17 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+}
+
+.primary_btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
 }
 
 header {
@@ -30,4 +42,27 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Banner styles */
+.banner_container {
+    text-align: center;
+}
+
+.banner_content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner_title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+
+.banner_container img {
+    width: 100%;
+    margin-top: 20px;
 }
