@@ -147,3 +147,30 @@ nav a {
     font-weight: 400;
     line-height: 26px;
 }
+
+.features_img_part img {
+    margin-left: 90px;
+}
+
+#ten_years_experiences {
+    width: 15rem;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FF900E;
+    color: #FFF;
+    position: relative;
+    top: -100px;
+}
+
+#ten_years_experiences h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+#ten_years_experiences p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
