@@ -217,6 +217,13 @@ footer {
 
 /* responsive design for small device */
 @media screen and (max-width:576px) {
+
+    /* common styles */
+    header {
+        padding: 10px;
+    }
+
+    /* navbar */
     nav {
         flex-direction: column;
     }
@@ -224,5 +231,10 @@ footer {
     nav li {
         padding: 1rem;
 
+    }
+
+    /* banner styles */
+    .banner_title {
+        font-size: 50px;
     }
 }
