@@ -200,3 +200,14 @@ nav a {
     grid-template-columns: repeat(5, 1fr);
     margin-top: 100px;
 }
+
+/* Footer styles */
+footer {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    padding: 40px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+}
