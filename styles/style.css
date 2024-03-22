@@ -237,4 +237,14 @@ footer {
     .banner_title {
         font-size: 50px;
     }
+
+    /* Quick list styles */
+    .quick_list_container {
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+    .quick_list_img {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
