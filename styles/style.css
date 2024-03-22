@@ -247,4 +247,21 @@ footer {
     .quick_list_img {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* feature styles */
+    .features_container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .features_img_part img {
+        margin: 0;
+        width: 100%;
+    }
+
+    #ten_years_experiences {
+        top: 30px;
+        left: 10px;
+    }
+
 }
