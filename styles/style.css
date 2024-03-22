@@ -58,7 +58,6 @@ nav li {
     list-style: none;
     padding: 2em;
     font-size: 1em;
-    font: 500;
 }
 
 nav a {
@@ -210,4 +209,20 @@ footer {
     border-radius: 8px;
     background: #FFF4E7;
     text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* responsive design for small device */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        padding: 1rem;
+
+    }
 }
