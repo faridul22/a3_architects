@@ -287,8 +287,23 @@ footer {
     }
 
     .quick_list_container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0 20px;
+    }
+
+    .features_container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .features_img_part img {
+        margin: 0;
+        width: 100%;
+    }
+
+    #ten_years_experiences {
+        top: 30px;
+        left: 10px;
     }
 
 }
