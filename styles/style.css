@@ -306,4 +306,12 @@ footer {
         left: 10px;
     }
 
+    .facts_container {
+        padding: 10px;
+    }
+
+    .facts_card_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
