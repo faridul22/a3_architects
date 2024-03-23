@@ -32,6 +32,7 @@ section {
     background-color: #FF900E;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
     margin-top: 20px;
 }
 
