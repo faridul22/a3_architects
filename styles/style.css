@@ -314,4 +314,14 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .sponsor_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        justify-items: center;
+    }
+
+    .sponsor_telerama {
+        grid-column: span 2;
+    }
 }
