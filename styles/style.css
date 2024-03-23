@@ -269,8 +269,14 @@ footer {
         padding: 10px;
     }
 
-    .facts_card_container {
+    .facts_card_container,
+    .sponsor_container {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* sponsor style */
+    .sponsor_container {
+        justify-items: center;
+        gap: 20px;
+    }
 }
